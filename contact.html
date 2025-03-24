@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shishi Styles</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/e4e3fe8b04.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body class="flex flex-col min-h screen">
+    <!--Navbar-->
+    <nav class="top-nav fixed top-0 w-full">
+        <div class="bg-rose-200 flex justify-between items-center px-8 py-5 z-50">
+        <div class="text-2xl text-gray-800 font-bold brand-name font-sans tracking">SHISHI STYLES</div>
+        <div>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="index.html" class=" font-sans tracking hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Home</a></li>
+            <li><a href="about.html" class=" font-sans tracking hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">About</a></li>
+            <li><a href="contact.html" class=" font-sans tracking hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Contact us</a></li>
+        </ul>
+        </div>
+        </div>
+        <div class="bg-white flex justify-between items-center px-8 py-5 z-50">
+            
+            <ul class="flex space-x-6">
+                <li><a href="#Bags&Accessories" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100  ">Bags&Accessories</a></li>
+                <li><a href="#Fragrances" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Fragrances</a></li>
+                <li><a href="#Skincare" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100" >Skincare</a></li>
+            </ul>
+        </div>
+        
+
+    </nav>
+
+    <!--Contact Page-->
+    <section class="bg-pink-100 py-16">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <h2 class="text-4xl font-sans-tracking font-bold text-center text-gray-800 mb-12">Get In Touch</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <!-- Contact Form -->
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">Get in Touch</h3>
+                <p class="text-gray-600 mb-6">We’d love to hear from you! Fill out the form below and we’ll get back to you shortly.</p>
+                
+                <form action="#" method="POST">
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-medium mb-2" for="name">Name</label>
+                        <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500" placeholder="Enter your Name">
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-medium mb-2" for="email">Email</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500" placeholder="Enter your email">
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-medium mb-2" for="Phone number">Phone Number</label>
+                        <input type="phone number" id="Phone number"class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500" placeholder="Enter your Phone Number">
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-medium mb-2" for="message">Message</label>
+                        <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"></textarea>
+                    </div>
+
+                   
+
+                    <button type="submit" class="w-full bg-purple-300 text-gray-800 py-2 rounded-lg font-semibold hover:bg-purple-400 transition duration-300">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Image -->
+            <div>
+                <img src="assets/pexels-harper-sunday-2866796.jpg" alt="Luxury Beauty Contact" class="w-full rounded-lg shadow-lg">
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!--Footer-->
+  <footer class="bg-rose-200 text-gray-800 py-8 w-screen">
+    <div class= " max-w-7xl mx-auto grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <!--Left column(Quick links)-->
+        <div>
+            <h3 class="text-lg font-semibold text-gray-800 mb-2 font-sans tracking mt-4">Quick links</h3>
+            <ul class="space-y-2">
+              <li><a href="#hero" class="text-gray-800 hover:text-purple-900">Home</a></li>
+              <li><a href="#about" class="text-gray-800 hover:text-purple-900">About</a></li>
+              <li><a href="#services" class="text-gray-800 hover:text-purple-900">Contact Us</a></li>
+              
+            </ul>
+           </div>
+      
+
+        <!--Middle column(About us)-->
+        <div class="mx-8">
+            <h3 class="text-lg text-gray-800 font-semibold font-sans tracking mt-4 ">About Shishi styles</h3>
+            <p class="text-gray-800 font-sans tracking">At <b>Shishi Styles</b>, we believe in the power of elegance and beauty.Our luxury collection is crafted with care, blending sophistication with timeless style. Explore our range of premium skincare, fragrances, and accessories.</p>
+        </div>
+
+        <!--Last Column(social links and contact info)-->
+        <div>
+            <div class="mt-4">
+                <img src="assets/pexels-harper-sunday-2866796.jpg" alt="Beauty Products" class="w-32 mx-auto md:mx-0 mb-4 rounded-lg shadow-lg">
+            </div>
+            <div> 
+                <h3 class="text-lg text-gray-800 font-semibold mb-2 mt-4">Contact</h3>
+                <p class="text-gray-800">Email:michellewangari33@gmail.com</p>
+                <p class="text-gray-800">Phone: +254 758 070 462</p>
+
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-900 hover:text-gray-600 transition"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-gray-900 hover:text-gray-600 transition"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#" class="text-gray-900 hover:text-gray-600 transition"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="text-gray-900 hover:text-gray-600  transition"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+    
+</body>
+</html>

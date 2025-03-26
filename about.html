@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shishi Styles</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/e4e3fe8b04.js" crossorigin="anonymous"></script>
     
@@ -12,7 +12,7 @@
 <body>
     <!--Navbar-->
     <nav class="top-nav fixed top-0 w-full">
-        <div class="bg-rose-200 flex justify-between items-center px-8 py-5 z-50">
+        <div class="bg-white flex justify-between items-center px-8 py-5 z-50 border-b-2 border-gray-300">
         <div class="text-2xl text-gray-800 font-bold brand-name font-sans tracking">SHISHI STYLES</div>
         <div>
         <ul class="hidden md:flex space-x-6">
@@ -22,26 +22,36 @@
         </ul>
         </div>
         </div>
-        <div class="bg-white flex justify-between items-center px-8 py-5 z-50">
-            
+        <div class="bg-white flex justify-between items-center px-8  py-5 z- 50">
+            <div>
             <ul class="flex space-x-6">
-                <li><a href="#Bags&Accessories" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100  ">Bags&Accessories</a></li>
-                <li><a href="#Fragrances" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Fragrances</a></li>
-                <li><a href="#Skincare" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100" >Skincare</a></li>
+                <li><a href="bags.html" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100  ">Bags</a></li>
+                <li><a href="fragrances.html" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Fragrances</a></li>
+                
+                <li><a href="accessories.html" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100" >Accessories</a></li>
             </ul>
+            </div>
+            
+            <div class="flex space-x-4">
+                <div class="relative flex items-center bg-white border border-gray-300 rounded-full px-3 py-2 shadow-md">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search products" class="bg-transparent focus:outline-none px-3 text-gray-800">
+                </div> 
+                <a href="#" class="text-black hover:text-gray-500 transition"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="login.html" class="text-black hover:text-gray-500 transition"><i class="fa-solid fa-user"></i></a>
+            </div>
+            
         </div>
-        
-
     </nav>
 
-  <section class="bg-pink-50 py-16">
+  <section class="bg-rose-100 py-16">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">About Shishi Styles</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
             <!-- Image Left, Text Right -->
             <div>
-                <img src="assets/our storyy.jpg" alt="Luxury Beauty Products" class="w-full rounded-lg shadow-lg">
+                <img src="assets/pmv-chamara-wy7OK3cFqAY-unsplash.jpg" alt="Luxury Beauty Products" class="w-full rounded-lg shadow-lg">
             </div>
             <div>
                 <h3 class="text-2xl font-semibold text-gray-800">Our Story</h3>
@@ -54,7 +64,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
             <!-- Text Left, Image Right -->
             <div class="md:order-2">
-                <img src="assets/bags.jpg" alt="Elegant Skincare" class="w-full rounded-lg shadow-lg">
+                <img src="assets/pmv-chamara-OXYOFT9gTOE-unsplash.jpg" alt="Elegant Skincare" class="w-full rounded-lg shadow-lg">
             </div>
             <div class="md:order-1">
                 <h3 class="text-2xl font-semibold text-gray-800">Our Mission</h3>
@@ -67,7 +77,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <!-- Image Left, Text Right -->
             <div>         
-                <img src="assets/skincare.jpg" alt="Beauty Experts" class="w-full rounded-lg shadow-lg">
+                <img src="assets/trung-do-bao--aNELWvR-vQ-unsplash.jpg" alt="Beauty Experts" class="w-full rounded-lg shadow-lg">
             </div>
             <div>
                 <h3 class="text-2xl font-semibold text-gray-800">Our Vision</h3>
@@ -79,15 +89,15 @@
     </div>
 </section>
  <!--Footer-->
- <footer class="bg-rose-200 text-gray-800 py-8 w-screen">
+ <footer class="bg-gray-800 text-gray-800 py-8 w-screen">
     <div class= " max-w-7xl mx-auto grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <!--Left column(Quick links)-->
         <div>
-            <h3 class="text-lg font-semibold text-gray-800 mb-2 font-sans tracking mt-4">Quick links</h3>
+            <h3 class="text-lg font-semibold text-white mb-2 font-sans tracking mt-4">Quick links</h3>
             <ul class="space-y-2">
-              <li><a href="#hero" class="text-gray-800 hover:text-purple-900">Home</a></li>
-              <li><a href="#about" class="text-gray-800 hover:text-purple-900">About</a></li>
-              <li><a href="#services" class="text-gray-800 hover:text-purple-900">Contact Us</a></li>
+              <li><a href="#hero" class="text-white  hover:text-purple-900">Home</a></li>
+              <li><a href="#about" class="text-white  hover:text-purple-900">About</a></li>
+              <li><a href="#services" class="text-white  hover:text-purple-900">Contact Us</a></li>
               
             </ul>
            </div>
@@ -95,8 +105,8 @@
 
         <!--Middle column(About us)-->
         <div class="mx-8">
-            <h3 class="text-lg text-gray-800 font-semibold font-sans tracking mt-4 ">About Shishi styles</h3>
-            <p class="text-gray-800 font-sans tracking">At <b>Shishi Styles</b>, we believe in the power of elegance and beauty.Our luxury collection is crafted with care, blending sophistication with timeless style. Explore our range of premium skincare, fragrances, and accessories.</p>
+            <h3 class="text-lg text-white  font-semibold font-sans tracking mt-4 ">About Shishi styles</h3>
+            <p class="text-white font-sans tracking">At <b>Shishi Styles</b>, we believe in the power of elegance and beauty.Our luxury collection is crafted with care, blending sophistication with timeless style. Explore our range of premium skincare, fragrances, and accessories.</p>
         </div>
 
         <!--Last Column(social links and contact info)-->
@@ -105,18 +115,18 @@
                 <img src="assets/pexels-harper-sunday-2866796.jpg" alt="Beauty Products" class="w-32 mx-auto md:mx-0 mb-4 rounded-lg shadow-lg">
             </div>
             <div> 
-                <h3 class="text-lg text-gray-800 font-semibold mb-2 mt-4">Contact</h3>
-                <p class="text-gray-800">Email:michellewangari33@gmail.com</p>
-                <p class="text-gray-800">Phone: +254 758 070 462</p>
+                <h3 class="text-lg text-white  font-semibold mb-2 mt-4">Contact</h3>
+                <p class="text-white ">Email:michellewangari33@gmail.com</p>
+                <p class="text-white ">Phone: +254 758 070 462</p>
 
             </div>
             <div>
                 <h3 class="text-lg font-semibold mb-2">Follow Us</h3>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-gray-900 hover:text-gray-600 transition"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#" class="text-gray-900 hover:text-gray-600 transition"><i class="fa-brands fa-square-instagram"></i></a>
-                        <a href="#" class="text-gray-900 hover:text-gray-600 transition"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#" class="text-gray-900 hover:text-gray-600  transition"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#" class="text-white hover:text-gray-100 transition"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-white  hover:text-gray-100 transition"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#" class="text-white hover:text-gray-100 transition"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="text-white  hover:text-gray-100  transition"><i class="fa-brands fa-tiktok"></i></a>
                     </div>
 
             </div>

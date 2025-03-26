@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shishi Styles</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/e4e3fe8b04.js" crossorigin="anonymous"></script>
+</head>
+<body class="flex flex-col min-h screen bg-rose-100">
+    <!--Navbar-->
+    <nav class="top-nav fixed top-0 w-full">
+        <div class="bg-white flex justify-between items-center px-8 py-5 z-50 border-b-2 border-gray-300">
+        <div class="text-2xl text-gray-800 font-bold brand-name font-sans tracking">SHISHI STYLES</div>
+        <div>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="index.html" class=" font-sans tracking hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Home</a></li>
+            <li><a href="about.html" class=" font-sans tracking hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">About</a></li>
+            <li><a href="contact.html" class=" font-sans tracking hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Contact us</a></li>
+        </ul>
+        </div>
+        </div>
+        <div class="bg-white flex justify-between items-center px-8  py-5 z- 50">
+            <div>
+            <ul class="flex space-x-6">
+                <li><a href="bags.html" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100  ">Bags</a></li>
+                <li><a href="fragrances.html" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Fragrances</a></li>
+                
+                <li><a href="accessories.html" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100" >Accessories</a></li>
+            </ul>
+            </div>
+            
+            <div class="flex space-x-4">
+                <div class="relative flex items-center bg-white border border-gray-300 rounded-full px-3 py-2 shadow-md">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search products" class="bg-transparent focus:outline-none px-3 text-gray-800">
+                </div> 
+                <a href="#" class="text-black hover:text-gray-500 transition"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="login.html" class="text-black hover:text-gray-500 transition"><i class="fa-solid fa-user"></i></a>
+            </div>
+            
+        </div>
+    </nav>
+
+    <main>
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-3xl font-semibold text-gray-800 text-center mb-8">Accessories Collection</h1>
+    
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                
+                <!-- Accessory Cards (12 Items) -->
+                <div class="border border-gray-300 p-4 bg-white rounded-lg shadow">
+                    <img src="assets/andres-vera-202NAwjisYA-unsplash.jpg" alt="gold rings" class="w-full rounded h-40 object-cover object-center">
+                    <div class="mt-4">
+                        <h2 class="text-xl font-semibold">Gold bands</h2>
+                        <p class="text-gray-600">A timeless piece with a sleek finish.</p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="border border-gray-300 p-4 bg-white rounded-lg shadow">
+                    <img src="assets/gabrielle-henderson-Z0KoI2aysro-unsplash.jpg" alt="silver rings" class="w-full rounded h-40 object-cover object-center">
+                    <div class="mt-4">
+                        <h2 class="text-xl font-semibold">Silver bands</h2>
+                        <p class="text-gray-600">Stylish and elegant design.</p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                       
+                    </div>
+                </div>
+    
+                <div class="border border-gray-300 p-4 bg-white rounded-lg shadow">
+                    <img src="assets/mathilde-langevin-v3hCo9Jljfo-unsplash.jpg" alt="Silver ring with diamonds" class="w-full rounded h-40 object-cover object-center">
+                    <div class="mt-4">
+                        <h2 class="text-xl font-semibold">Diamond ring</h2>
+                        <p class="text-gray-600">A stunning diamond-studded ring.</p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                       
+                    </div>
+                </div>
+    
+                <div class="border border-gray-300 p-4 bg-white rounded-lg shadow">
+                    <img src="assets/patty-zavala-SniDFooLoow-unsplash.jpg" alt="Pink diamond ring" class="w-full rounded h-40 object-cover object-center">
+                    <div class="mt-4">
+                        <h2 class="text-xl font-semibold">Pink diamond ring</h2>
+                        <p class="text-gray-600">A stunning ring encrusted with a pink diamond</p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+                <div class="border border-gray-300 p-4 bg-white rounded-lg shadow">
+                    <img src="assets/carlos-esteves-1MWbwTaeJIA-unsplash.jpg" alt="Silver Bracelet" class="w-full rounded h-40 object-cover object-center">
+                    <div class="mt-4">
+                        <h2 class="text-xl font-semibold">Silver Bracelet</h2>
+                        <p class="text-gray-600">Classic stainless steel design.</p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+                <div class="border border-gray-300 p-4 bg-white rounded-lg shadow">
+                    <img src="assets/nataliya-melnychuk-oO0JAOJhquk-unsplash.jpg" alt="gold bracelet" class="w-full rounded h-40 object-cover object-center">
+                    <div class="mt-4">
+                        <h2 class="text-xl font-semibold">Gold bracelet</h2>
+                        <p class="text-gray-600">Stylish and stunning gold bracelet</p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+                <div class="border border-gray-300 p-4 bg-white rounded-lg shadow">
+                    <img src="assets/sabrianna-2z7MxnXQs3k-unsplash.jpg" alt="Diamond bracelet" class="w-full rounded h-40 object-cover object-center">
+                    <div class="mt-4">
+                        <h2 class="text-xl font-semibold">Diamond bracelet</h2>
+                        <p class="text-gray-600">Eye-catching and stunning bracelet encrusted with diamonds. </p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="border border-gray-300 p-4 bg-white rounded-lg shadow">
+                    <img src="assets/sabrianna-2z7MxnXQs3k-unsplash.jpg" alt="Diamond bracelet" class="w-full rounded h-40 object-cover object-center">
+                    <div class="mt-4">
+                        <h2 class="text-xl font-semibold">Diamond bracelet</h2>
+                        <p class="text-gray-600">Eye-catching and stunning bracelet encrusted with diamonds. </p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="border border-gray-300 p-4 bg-white rounded-lg shadow">
+                    <img src="assets/sabrianna-2z7MxnXQs3k-unsplash.jpg" alt="Diamond bracelet" class="w-full rounded h-40 object-cover object-center">
+                    <div class="mt-4">
+                        <h2 class="text-xl font-semibold">Diamond bracelet</h2>
+                        <p class="text-gray-600">Eye-catching and stunning bracelet encrusted with diamonds. </p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="border border-gray-300 p-4 bg-white rounded-lg shadow">
+                    <img src="assets/sabrianna-2z7MxnXQs3k-unsplash.jpg" alt="Diamond bracelet" class="w-full rounded h-40 object-cover object-center">
+                    <div class="mt-4">
+                        <h2 class="text-xl font-semibold">Diamond bracelet</h2>
+                        <p class="text-gray-600">Eye-catching and stunning bracelet encrusted with diamonds. </p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </main>
+    
+    
+</body>
+</html>

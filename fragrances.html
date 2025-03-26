@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shishi Styles</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/e4e3fe8b04.js" crossorigin="anonymous"></script>
+    
+</head>
+<body class="flex flex-col min-h screen bg-rose-100">
+    <!--Navbar-->
+    <nav class="top-nav fixed top-0 w-full">
+        <div class="bg-white flex justify-between items-center px-8 py-5 z-50 border-b-2 border-gray-300">
+        <div class="text-2xl text-gray-800 font-bold brand-name font-sans tracking">SHISHI STYLES</div>
+        <div>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="index.html" class=" font-sans tracking hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Home</a></li>
+            <li><a href="about.html" class=" font-sans tracking hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">About</a></li>
+            <li><a href="contact.html" class=" font-sans tracking hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Contact us</a></li>
+        </ul>
+        </div>
+        </div>
+        <div class="bg-white flex justify-between items-center px-8  py-5 z- 50">
+            <div>
+            <ul class="flex space-x-6">
+                <li><a href="bags.html" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100  ">Bags</a></li>
+                <li><a href="fragrances.html" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Fragrances</a></li>
+               
+                <li><a href="accessories.html" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100" >Accessories</a></li>
+            </ul>
+            </div>
+            
+            <div class="flex space-x-4">
+                <div class="relative flex items-center bg-white border border-gray-300 rounded-full px-3 py-2 shadow-md">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search products" class="bg-transparent focus:outline-none px-3 text-gray-800">
+                </div> 
+                <a href="#" class="text-black hover:text-gray-500 transition"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="login.html" class="text-black hover:text-gray-500 transition"><i class="fa-solid fa-user"></i></a>
+            </div>
+            
+        </div>
+    </nav>
+
+     <!--Main section-->
+     <main>
+        <section class="container mx-auto">
+            
+           <!--Fragrances-->
+            <div class="mb-8 cursor-pointer">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-8">
+                    <div class="rounded-lg-shadow-lg p-4 bg-white w-full ">
+                        <img src="assets/pexels-rethaferguson-3059609.jpg" alt="Crystal Glow" class="w-full h-64 object-cover rounded-md">
+                        <h4 class="font-sans tracking text-xl font-semibold text-center mt-4">Crystal Glow</h4>
+                        <p class="font-sans tracking text-md text-center mt-4"><i>A radiant blend of citrus, florals, and soft musk for an elegant touch.</i> </p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                
+                    <div class="rounded-lg-shadow-lg p-4 bg-white w-full">
+                        <img src="assets/pexels-didsss-1190829.jpg" alt="Rose Gold" class="w-full h-64 object-cover rounded-md">
+                        <h4 class="font-sans tracking text-xl font-semibold text-center mt-4">Rose Gold</h4>
+                        <p class="font-sans tracking text-md text-center mt-4"><i>A luxurious mix of roses, vanilla, and warm amber.</i></p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="rounded-lg-shadow-lg p-4 bg-white w-full">
+                        <img src="assets/pexels-pixabay-258244.jpg" alt="Obsidian" class="w-full h-64 object-cover rounded-md">
+                        <h4 class="font-sans tracking text-xl font-semibold text-center mt-4">Obsidian</h4>
+                        <p class="font-sans tracking text-md text-center mt-4"><i>A bold fusion of dark musk, smoky oud, and spice.</i></p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                    </div>
+
+
+                    <div class="rounded-lg-shadow-lg p-4 bg-white w-full">
+                        <img src="assets/pexels-mareefe-932577.jpg" alt="Breeze" class="w-full h-64 object-cover rounded-md">
+                        <h4 class="font-sans tracking text-xl font-semibold text-center mt-4">Breeze</h4>
+                        <p class="font-sans tracking text-md text-center mt-4"><i>A refreshing blend of citrus, ocean mist, and soft florals. </i></p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-8">
+                    <div class="rounded-lg-shadow-lg p-4 bg-white w-full border border-gray-300 ">
+                        <img src="assets/pexels-karolina-grabowska-8361545.jpg" alt="Whisper" class="w-full h-64 object-cover rounded-md">
+                        <h4 class="font-sans tracking text-xl font-semibold text-center mt-4">Whisper</h4>
+                        <p class="font-sans tracking text-md text-center mt-4"><i> A soft, airy blend of jasmine, vanilla, and white musk for a delicate, timeless scent. </i> </p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                        
+                    </div>
+
+                    <div class="rounded-lg shadow-lg bg-white w-full p-4">
+                        <img src="assets/pexels-eye4dtail-136651.jpg" alt="Midnight Bloom" class="w-full h-64 object-cover rounded-md">
+                        <h4 class="font-sans tracking text-xl font-semibold text-center mt-4">Midnight Bloom</h4>
+                        <p class="font-sans tracking text-md text-center mt-4"><i>A seductive blend of jasmine, blackberry, and warm vanilla for a mysterious allure.</i></p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="rounded-lg shadow-lg bg-white w-full p-4">
+                        <img src="assets/loes-klinker-IT7KiQCvfJ4-unsplash.jpg" alt="Velvet Sky" class="w-full h-64 object-cover rounded-md">
+                        <h4 class="font-sans tracking text-xl font-semibold text-center mt-4">Velvet Sky</h4>
+                        <p class="font-sans tracking text-md text-center mt-4"><i>A dreamy mix of lavender, honey, and soft musk that wraps you in a cozy embrace.</i></p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                    </div>
+                
+                
+                    <div class="rounded-lg shadow-lg bg-white w-full p-4">
+                        <img src="assets/pexels-didsss-1653085.jpg" alt="Sunset Kiss" class="w-full h-64 object-cover rounded-md">
+                        <h4 class="font-sans tracking text-xl font-semibold text-center mt-4">Sunset Kiss</h4>
+                        <p class="font-sans tracking text-md text-center mt-4"><i>A vibrant fusion of mandarin, coconut, and golden amber, capturing the warmth of twilight.</i></p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-8">
+                    <div class="rounded-lg shadow-lg bg-white w-full p-4">
+                        <img src="assets/pexels-valeriya-965992.jpg" alt="Enchanted Petals" class="w-full h-64 object-cover rounded-md">
+                        <h4 class="font-sans tracking text-xl font-semibold text-center mt-4">Enchanted Petals</h4>
+                        <p class="font-sans tracking text-md text-center mt-4"><i>A romantic bouquet of peony, rose, and soft musk, evoking a garden in bloom.</i></p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="rounded-lg shadow-lg bg-white w-full p-4">
+                        <img src="assets/pexels-valeriya-965993.jpg" alt="Golden Dusk" class="w-full h-64 object-cover rounded-md">
+                        <h4 class="font-sans tracking text-xl font-semibold text-center mt-4">Golden Dusk</h4>
+                        <p class="font-sans tracking text-md text-center mt-4"><i>A warm embrace of vanilla, sandalwood, and amber, capturing the essence of twilight.</i></p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="rounded-lg shadow-lg bg-white w-full p-4">
+                        <img src="assets/pexels-elly-fairytale-3865676.jpg" alt="Celestial Mist" class="w-full h-64 object-cover rounded-md">
+                        <h4 class="font-sans tracking text-xl font-semibold text-center mt-4">Celestial Mist</h4>
+                        <p class="font-sans tracking text-md text-center mt-4"><i>A refreshing blend of crisp pear, white tea, and dewy jasmine for a light, airy scent.</i></p>
+                        <div>
+                            <button class="w-full border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="rounded-lg shadow-lg bg-white w-full p-4">
+                        <img src="assets/laura-chouette-2H_8WbVPRxM-unsplash.jpg" alt="Moonlit Serenade" class="w-full h-64 object-cover rounded-md">
+                        <h4 class="font-sans tracking text-xl font-semibold text-center mt-4">Moonlit Serenade</h4>
+                        <p class="font-sans tracking text-md text-center mt-4"><i>A mesmerizing fusion of night-blooming jasmine, bergamot, and soft vanilla for a delicate, romantic aura.</i></p>
+                        <div>
+                            <button class="w-full  border border-black text-black py-3 mt-2 font-medium hover:bg-black hover:text-white transition text-sm">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <footer class="bg-gray-800 text-gray-800 py-8 w-screen">
+                <div class= " max-w-7xl mx-auto grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                    <!--Left column(Quick links)-->
+                    <div>
+                        <h3 class="text-lg font-semibold text-white mb-2 font-sans tracking mt-4">Quick links</h3>
+                        <ul class="space-y-2">
+                          <li><a href="#hero" class="text-white  hover:text-purple-900">Home</a></li>
+                          <li><a href="#about" class="text-white  hover:text-purple-900">About</a></li>
+                          <li><a href="#services" class="text-white  hover:text-purple-900">Contact Us</a></li>
+                          
+                        </ul>
+                       </div>
+                  
+            
+                    <!--Middle column(About us)-->
+                    <div class="mx-8">
+                        <h3 class="text-lg text-white  font-semibold font-sans tracking mt-4 ">About Shishi styles</h3>
+                        <p class="text-white font-sans tracking">At <b>Shishi Styles</b>, we believe in the power of elegance and beauty.Our luxury collection is crafted with care, blending sophistication with timeless style. Explore our range of premium skincare, fragrances, and accessories.</p>
+                    </div>
+            
+                    <!--Last Column(social links and contact info)-->
+                    <div>
+                        <div class="mt-4">
+                            <img src="assets/pexels-harper-sunday-2866796.jpg" alt="Beauty Products" class="w-32 mx-auto md:mx-0 mb-4 rounded-lg shadow-lg">
+                        </div>
+                        <div> 
+                            <h3 class="text-lg text-white  font-semibold mb-2 mt-4">Contact</h3>
+                            <p class="text-white ">Email:michellewangari33@gmail.com</p>
+                            <p class="text-white ">Phone: +254 758 070 462</p>
+            
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-2">Follow Us</h3>
+                                <div class="flex space-x-4">
+                                    <a href="#" class="text-white hover:text-gray-100 transition"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="#" class="text-white  hover:text-gray-100 transition"><i class="fa-brands fa-square-instagram"></i></a>
+                                    <a href="#" class="text-white hover:text-gray-100 transition"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#" class="text-white  hover:text-gray-100  transition"><i class="fa-brands fa-tiktok"></i></a>
+                                </div>
+            
+                        </div>
+                    </div>
+            
+                </div>
+            </footer>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shishi Styles</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/e4e3fe8b04.js" crossorigin="anonymous"></script>
+    
+    
+</head>
+<body class="flex flex-col min-h screen bg-rose-100">
+    <!--Navbar-->
+    <nav class="top-nav fixed top-0 w-full">
+        <div class="bg-white flex justify-between items-center px-8 py-5 z-50 border-b-2 border-gray-300">
+        <div class="text-2xl text-gray-800 font-bold brand-name font-sans tracking">SHISHI STYLES</div>
+        <div>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="index.html" class=" font-sans tracking hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Home</a></li>
+            <li><a href="about.html" class=" font-sans tracking hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">About</a></li>
+            <li><a href="contact.html" class=" font-sans tracking hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Contact us</a></li>
+        </ul>
+        </div>
+        </div>
+        <div class="bg-white flex justify-between items-center px-8  py-5 z- 50">
+            <div>
+            <ul class=" hidden md:flex space-x-6">
+                <li><a href="bags.html" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100  ">Bags</a></li>
+                <li><a href="fragrances.html" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Fragrances</a></li>
+                
+                <li><a href="accessories.html" class="hover:text-purple-900 transition relative after:content-[''] after:block after:h-0.5 after:w-full after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100" >Accessories</a></li>
+            </ul>
+            </div>
+            
+            <div class="flex space-x-4">
+                <div class="relative flex items-center bg-white border border-gray-300 rounded-full px-3 py-2 shadow-md">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search products" class="bg-transparent focus:outline-none px-3 text-gray-800">
+                </div> 
+                <a href="#" class="text-black hover:text-gray-500 transition"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="login.html" class="text-black hover:text-gray-500 transition"><i class="fa-solid fa-user"></i></a>
+            </div>
+            
+        </div>
+    </nav>
+
+    <main class="container mx-auto p-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            
+            <!-- Bag 1 -->
+            <div class="bg-white p-4 shadow rounded">
+                <img src="assets/arno-senoner-HFE2RyC76tw-unsplash.jpg" alt="Elegant Handbag" class="w-full h-70  object-cover rounded">
+                <h2 class="text-lg font-semibold mt-2">Elegant Handbag</h2>
+                <p class="text-sm italic text-gray-600">A stylish handbag for any occasion.</p>
+                <button class="mt-2 w-full bg-white text-black border border-black py-2 px-4 rounded hover:bg-black hover:text-white transition">Add to Cart</button>
+            </div>
+
+            <!-- Bag 2 -->
+            <div class="bg-white p-4 shadow rounded">
+                <img src="assets/pexels-nida-kurt-5079840-9785872.jpg" alt="Classic  brown Leather Bag" class="w-full h-84 object-contain rounded ">
+                <h2 class="text-lg font-semibold mt-2">Classic Brown Leather Bag</h2>
+                <p class="text-sm italic text-gray-600">A timeless leather handbag for elegance.</p>
+                <button class="mt-2 w-full bg-white text-black border border-black py-2 px-4 rounded hover:bg-black hover:text-white transition">Add to Cart</button>
+            </div>
+
+            <!-- Bag 3 -->
+            <div class="bg-white p-4 shadow rounded">
+                <img src="assets/laura-chouette-CtOA9wbFAdQ-unsplash.jpg" alt="Chic black Purse" class="w-full h-84 object-cover rounded">
+                <h2 class="text-lg font-semibold mt-2">Chic black purse</h2>
+                <p class="text-sm italic text-gray-600">Stylish and stunning piece.</p>
+                <button class="mt-2 w-full bg-white text-black border border-black py-2 px-4 rounded hover:bg-black hover:text-white transition">Add to Cart</button>
+            </div>
+
+            <!-- Bag 4 -->
+            <div class="bg-white p-4 shadow rounded">
+                <img src="assets/arno-senoner-oCXVxwTFwqE-unsplash.jpg" alt="Luxury Handbag" class="w-full h-84 object-cover rounded">
+                <h2 class="text-lg font-semibold mt-2">Luxury Handbag</h2>
+                <p class="text-sm italic text-gray-600">Perfect for an elegant, sophisticated look.</p>
+                <button class="mt-2 w-full bg-white text-black border border-black py-2 px-4 rounded hover:bg-black hover:text-white transition">Add to Cart</button>
+            </div>
+
+            <!-- Bag 5 -->
+            <div class="bg-white p-4 shadow rounded">
+                <img src="assets/laura-chouette-jC2lLDk55CE-unsplash.jpg" alt="Designer Crossbody" class="w-full h-70 object-cover rounded">
+                <h2 class="text-lg font-semibold mt-2">Designer Crossbody</h2>
+                <p class="text-sm italic text-gray-600">Trendy and compact for daily essentials.</p>
+                <button class="mt-2 w-full bg-white text-black border border-black py-2 px-4 rounded hover:bg-black hover:text-white transition">Add to Cart</button>
+            </div>
+
+            <!-- Bag 6 -->
+            <div class="bg-white p-4 shadow rounded">
+                <img src="assets/pexels-dhanno-22434758.jpg" alt="Grey Leather Bag" class="w-full object-cover rounded" height="100px">
+                <h2 class="text-lg font-semibold mt-2">Grey Leather Bag</h2>
+                <p class="text-sm italic text-gray-600">A must-have for a chic wardrobe.</p>
+                <button class="mt-2 w-full bg-white text-black border border-black py-2 px-4 rounded hover:bg-black hover:text-white transition">Add to Cart</button>
+            </div>
+
+            <!-- Bag 7 -->
+            <div class="bg-white p-4 shadow rounded">
+                <img src="assets/pexels-flat-hito-294826-904350.jpg" alt="Elegant Clutch" class="w-full h-84 object-cover rounded">
+                <h2 class="text-lg font-semibold mt-2">Elegant Clutch</h2>
+                <p class="text-sm italic text-gray-600">Perfect for formal events and nights out.</p>
+                <button class="mt-2 w-full bg-white text-black border border-black py-2 px-4 rounded hover:bg-black hover:text-white transition">Add to Cart</button>
+            </div>
+
+            <!-- Bag 8 -->
+            <div class="bg-white p-4 shadow rounded">
+                <img src="assets/korie-cull-QWIJ50qBAJ8-unsplash.jpg" alt="Boho Hobo Bag" class="w-full h-70 object-cover rounded">
+                <h2 class="text-lg font-semibold mt-2">Boho Hobo Bag</h2>
+                <p class="text-sm italic text-gray-600">A casual, relaxed style for everyday wear.</p>
+                <button class="mt-2 w-full bg-white text-black border border-black py-2 px-4 rounded hover:bg-black hover:text-white transition">Add to Cart</button>
+            </div>
+
+            <!-- Bag 9 -->
+            <div class="bg-white p-4 shadow rounded">
+                <img src="assets/diana-light-nvQemFKRBUo-unsplash.jpg" alt="Mini Satchel" class="w-full h-68 object-cover rounded">
+                <h2 class="text-lg font-semibold mt-2">Mini Satchel</h2>
+                <p class="text-sm italic text-gray-600">Compact yet stylish for light carrying.</p>
+                <button class="mt-2 w-full bg-white text-black border border-black py-2 px-4 rounded hover:bg-black hover:text-white transition">Add to Cart</button>
+            </div>
+
+            <!-- Bag 10 -->
+            <div class="bg-white p-4 shadow rounded">
+                <img src="assets/irene-kredenets-tcVH_BwHtrc-unsplash.jpg" alt="Trendy Brown purse" class="w-full h-68 object-cover rounded">
+                <h2 class="text-lg font-semibold mt-2">Trendy Brown Purse</h2>
+                <p class="text-sm italic text-gray-600">Stylish and functional for everyday use.</p>
+                <button class="mt-2 w-full bg-white text-black border border-black py-2 px-4 rounded hover:bg-black hover:text-white transition">Add to Cart</button>
+            </div>
+
+            <!-- Bag 11 -->
+            <div class="bg-white p-4 shadow rounded">
+                <img src="assets/pexels-dhanno-22432993.jpg" alt="Grey clutch" class="w-full h-64 object-cover rounded">
+                <h2 class="text-lg font-semibold mt-2">Grey Clutch</h2>
+                <p class="text-sm italic text-gray-600">Chic and elegant especially for a night out</p>
+                <button class="mt-2 w-full bg-white text-black border border-black py-2 px-4 rounded hover:bg-black hover:text-white transition">Add to Cart</button>
+            </div>
+
+            <!-- Bag 12 -->
+            <div class="bg-white p-4 shadow rounded">
+                <img src="assets/pexels-bertoli-28245548.jpg" alt="Pink purse" class="w-full h-64 object-cover rounded">
+                <h2 class="text-lg font-semibold mt-2">Stunning pink purse</h2>
+                <p class="text-sm italic text-gray-600">Soft and elegant giving a timeless look.</p>
+                <button class="mt-2 w-full bg-white text-black border border-black py-2 px-4 rounded hover:bg-black hover:text-white transition">Add to Cart</button>
+            </div>
+
+        </div>
+    </main>
+
+
+
+</body>
+</html>
+
+        
+            
+    

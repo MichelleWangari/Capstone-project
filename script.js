@@ -8,4 +8,9 @@ function welcomeMsg(name) {
     alert("Hello " + name+ " ! " + " Welcome to our website!")
 }
 
+function onSubmit() {
+    alert("Welcome back :)")
+    return index.html;
+};
+
 
